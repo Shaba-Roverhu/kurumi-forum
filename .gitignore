@@ -3,3 +3,4 @@ database.sqlite
 *.log
 .env
 .DS_Store
+.env
