@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🕰️ Kurumi Forum - 狂三军团论坛</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; }
+    .kurumi-card { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); }
+    .clock-icon { animation: tick 2s infinite; }
+    @keyframes tick { 0%, 100% { transform: rotate(-5deg); } 50% { transform: rotate(5deg); } }
+  </style>
+</head>
+<body class="text-white">
+  <div id="app"></div>
+  <script src="app.js"></script>
+</body>
+</html>
